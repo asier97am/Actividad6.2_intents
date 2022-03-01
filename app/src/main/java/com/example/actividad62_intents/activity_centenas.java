@@ -47,6 +47,7 @@ public class activity_centenas extends AppCompatActivity {
                             resultado= Integer.toBinaryString(Integer.parseInt(resultado))+" ---> "+resultado;
 
                             tvComprobacion.setText(resultado);
+
                         } else if (result.getResultCode() == Activity.RESULT_CANCELED) {
                             String mensaje_vuelta = "Sin mensaje de vuelta";
                             Context context = getApplicationContext();
